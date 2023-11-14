@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja {
+    background-color: blueviolet;
+    display: inline-block;
+    border: 3px solid salmon;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px 30px;
+}
+
+.img {
+    background-color: #333;
+    background-image: url();
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.subt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    background-color: salmon;
+    padding: 10px 30px;
+    margin: 10px;
+}
+
+.link:hover {
+    color: black;
+    background-color: yellow;
+}
